@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.Admin.VehicleEquipmentActivity1">
+
+    <com.firemanagement.view.CustomTitleBar
+        android:id="@+id/ctb_vehicle_equipment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leftImage="@drawable/go_back"
+        app:middleTitle="车辆装备信息"
+        app:rightImage="@drawable/add"
+        ></com.firemanagement.view.CustomTitleBar>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_vehicle_equipment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/tv_vehicle_equipment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="暂无车辆装备信息"
+        android:textColor="#B3B3B3"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+
+</LinearLayout>

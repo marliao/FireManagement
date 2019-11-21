@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.firemanagement.view.CustomTitleBar
+        android:id="@+id/tv_log_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leftImage="@drawable/go_back"
+        app:middleTextSize="@dimen/dp_20"
+        app:middleTitle="交接班记录" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="@dimen/dp_10"
+        app:contentPadding="@dimen/dp_5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/left_1"
+                android:padding="@dimen/dp_10"
+                />
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingTop="@dimen/dp_5"
+                android:paddingBottom="@dimen/dp_5"
+                android:textAlignment="center"
+                android:textColor="@color/write"
+                android:textSize="@dimen/dp_20" />
+
+            <ImageView
+                android:id="@+id/iv_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/enter"
+                android:padding="@dimen/dp_10"
+                />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <ListView
+        android:id="@+id/lv_log"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+</LinearLayout>

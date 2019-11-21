@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.firemanagement.view.CustomTitleBar
+        android:id="@+id/ctb_personal_manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leftImage="@drawable/go_back"
+        app:middleTitle=" 用户列表"
+        app:rightImage="@drawable/add">
+
+    </com.firemanagement.view.CustomTitleBar>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_personal_manager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

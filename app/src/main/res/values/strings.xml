@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">FireManagement</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="set_title">设置</string>
+    <string name="feedback">建议反馈</string>
+    <string name="CheckForUpdates">检查更新</string>
+    <string name="SoftwareDescription">软件说明</string>
+    <string name="logout">注销账号</string>
+    <string name="SignOut">退出登录</string>
+    <string name="dutyManagement">执勤实力管理</string>
+    <string name="cancle">取消</string>
+
+    <string name="title">请选择时间</string>
+    <string name="commit">确定</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+
+
+    <string name="select_date">选择日期</string>
+    <string name="current_date">当前日期</string>
+    <string name="select_time">选择时间</string>
+    <string name="current_time">当前时间</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string-array name="spinner_sex">
+        <item>男</item>
+        <item>女</item>
+        <item>性别不详</item>
+    </string-array>
+    <string-array name="spinner_reign">
+        <item>在位</item>
+        <item>不在位</item>
+    </string-array>
+    <string-array name="spinner_subordinate_detachment">
+        <item>昌吉地区公安消防支队</item>
+        <item>昌吉消防支队奇台县大队</item>
+        <item>昌吉消防支队阜康市大队</item>
+        <item>昌吉消防支队淮东油田大队</item>
+        <item>--请选择--</item>
+    </string-array>
+    <string-array name="spinner_vehicle">
+        <item>居高类消防车</item>
+        <item>灭火类消防车</item>
+        <item>--请选择--</item>
+    </string-array>
+    <string-array name="spinner_equipment">
+        <item>消防器具类</item>
+        <item>消防泵类</item>
+        <item>专勤类消防</item>
+        <item>--请选择--</item>
+    </string-array>
+    <string-array name="spinner_vehicle_equipment_category">
+        <item>消防器具类</item>
+        <item>消防泵类</item>
+        <item>居高类消防车</item>
+        <item>灭火类消防车</item>
+        <item>专勤类消防</item>
+        <item>--请选择--</item>
+    </string-array>
+
+</resources>

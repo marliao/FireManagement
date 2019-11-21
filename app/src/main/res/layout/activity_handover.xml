@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.firemanagement.view.CustomTitleBar
+        android:id="@+id/tv_title_handover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leftImage="@drawable/go_back"
+        app:middleTextSize="@dimen/dp_20"
+        app:middleTitle="交接班"></com.firemanagement.view.CustomTitleBar>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_10"
+        android:elevation="@dimen/dp_8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/dp_2">
+
+            <ImageView
+                android:id="@+id/iv_u_icon"
+                android:layout_width="@dimen/dp_100"
+                android:layout_height="@dimen/dp_100"
+                android:layout_margin="@dimen/dp_10"
+                android:padding="@dimen/dp_10"
+                android:src="@drawable/user" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_0"
+    android:layout_weight="1"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    >
+                <TextView
+                    android:id="@+id/tv_on_duty_name"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="当前执勤人员:"
+                    android:textColor="@color/write"
+                    android:textSize="@dimen/dp_16" />
+    <TextView
+        android:id="@+id/tv_more_person"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dp_15"
+        android:layout_gravity="right"
+        android:textColor="#fd2007"
+        android:text="更多"
+        android:gravity="center"
+        android:layout_marginRight="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_5"
+        />
+</LinearLayout>
+                <TextView
+                    android:id="@+id/tv_on_duty_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="接班时间:"
+                    android:textColor="@color/write"
+                    android:textSize="@dimen/dp_16" />
+
+                <TextView
+                    android:id="@+id/tv_on_duty_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="到岗情况:"
+                    android:textColor="@color/write"
+                    android:textSize="@dimen/dp_16" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    //当前车辆装备信息
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_10"
+        android:elevation="@dimen/dp_8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/dp_2">
+
+            <ImageView
+                android:id="@+id/iv_car_icon"
+                android:layout_width="@dimen/dp_100"
+                android:layout_height="@dimen/dp_100"
+                android:layout_margin="@dimen/dp_10"
+                android:padding="@dimen/dp_10"
+                android:src="@drawable/car" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_0"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    >
+                <TextView
+                    android:id="@+id/tv_car_duty_number"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="车辆号:"
+                    android:textColor="@color/write"
+                    android:textSize="@dimen/dp_16" />
+                    <TextView
+                        android:id="@+id/tv_more_car"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/dp_15"
+                        android:layout_gravity="right"
+                        android:textColor="#fd2007"
+                        android:text="更多"
+                        android:gravity="center"
+                        android:layout_marginRight="@dimen/dp_5"
+                        android:layout_marginTop="@dimen/dp_5"
+                        />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/tv_on_car_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="车辆名称:"
+                    android:textColor="@color/write"
+                    android:textSize="@dimen/dp_16" />
+
+                <TextView
+                    android:id="@+id/tv_on_car_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="车辆状态:"
+                    android:textColor="@color/write"
+                    android:textSize="@dimen/dp_16" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt_handover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_30"
+            android:background="@drawable/bg_gray_button"
+            android:gravity="center"
+            android:paddingLeft="@dimen/dp_80"
+            android:paddingTop="@dimen/dp_16"
+            android:paddingRight="@dimen/dp_80"
+            android:paddingBottom="@dimen/dp_16"
+            android:text="交班"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dp_20"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/bt_succession"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_30"
+            android:background="@drawable/bg_red_button"
+            android:gravity="center"
+            android:paddingLeft="@dimen/dp_80"
+            android:paddingTop="@dimen/dp_16"
+            android:paddingRight="@dimen/dp_80"
+            android:paddingBottom="@dimen/dp_16"
+            android:text="接班"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dp_20" />
+    </LinearLayout>
+
+</LinearLayout>

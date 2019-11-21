@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="@dimen/dp_10"
+            app:cardPreventCornerOverlap="false"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F1FBFF"
+                android:orientation="vertical"
+                android:padding="@dimen/dp_10">
+
+                <ImageView
+                    android:id="@+id/iv_equipment_picture"
+                    android:layout_width="@dimen/dp_200"
+                    android:layout_height="@dimen/dp_100"
+                    android:layout_gravity="center"
+                    android:src="@drawable/car" />
+
+                <TextView
+                    android:id="@+id/tv_equipment_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dp_5"
+                    android:text="装备名称："
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_equipment_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dp_5"
+                    android:text="装备状态："
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_equipment_detachment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dp_5"
+                    android:text="装备所属支队："
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dp_10">
+
+                    <Button
+                        android:id="@+id/btn_delete"
+                        android:layout_width="@dimen/dp_50"
+                        android:layout_height="@dimen/dp_20"
+                        android:background="@drawable/bg_gray_button"
+                        android:gravity="center"
+                        android:text="删除"
+                        android:textColor="#fff"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/btn_update"
+                        android:layout_width="@dimen/dp_50"
+                        android:layout_height="@dimen/dp_20"
+                        android:layout_marginLeft="@dimen/dp_50"
+                        android:background="@drawable/bg_red_button"
+                        android:gravity="center"
+                        android:text="修改"
+                        android:textColor="#fff"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>

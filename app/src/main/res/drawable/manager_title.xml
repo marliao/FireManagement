@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/lb1"
+        android:duration="2000" />
+    <item
+        android:drawable="@drawable/lb2"
+        android:duration="2000" />
+    <item
+        android:drawable="@drawable/lb3"
+        android:duration="2000" />
+    <item
+        android:drawable="@drawable/lb4"
+        android:duration="2000" />
+    <item
+        android:drawable="@drawable/lb5"
+        android:duration="2000" />
+    <item
+        android:drawable="@drawable/lb6"
+        android:duration="2000" />
+</animation-list>

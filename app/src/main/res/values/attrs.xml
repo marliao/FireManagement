@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomTitleBar">
+        <attr name="leftTitle" format="string" />
+        <attr name="middleTitle" format="string" />
+        <attr name="rightTitle" format="string" />
+
+        <attr name="leftTextSize" format="dimension" />
+        <attr name="middleTextSize" format="dimension" />
+        <attr name="rightTextSize" format="dimension" />
+
+        <attr name="leftTextColor" format="color" />
+        <attr name="middleTextColor" format="color" />
+        <attr name="rightTextColor" format="color" />
+
+        <attr name="leftImage" format="integer" />
+        <attr name="rightImage" format="integer" />
+        <attr name="rightImage2" format="integer" />
+
+
+    </declare-styleable>
+
+
+</resources>

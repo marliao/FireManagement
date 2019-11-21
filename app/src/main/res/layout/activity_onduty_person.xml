@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.firemanagement.view.CustomTitleBar
+        android:id="@+id/title_on_duty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leftImage="@drawable/go_back"
+        app:middleTitle="执勤人员信息"
+        app:rightImage="@drawable/add">
+
+    </com.firemanagement.view.CustomTitleBar>
+
+    <ListView
+        android:id="@+id/lv_on_duy_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:divider="#FF1200"
+        android:dividerHeight="@dimen/dp_1"
+        ></ListView>
+
+</LinearLayout>

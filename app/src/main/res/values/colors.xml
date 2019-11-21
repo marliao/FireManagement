@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="font_color_333333">#333333</color>
+    <color name="font_color_666666">#666666</color>
+    <color name="font_color_999999">#999999</color>
+    <color name="font_color_blue_c2dffb">#c2dffb</color>
+
+    <color name="font_color_white">#ffffff</color>
+    <color name="font_color_orange_f0961f">#f0961f</color>
+    <color name="font_color_orange_ff3838">#ff3838</color>
+    <color name="font_color_orange_ef8f0f">#ef8f0f</color>
+    <color name="font_color_orange_ffba00">#ffba00</color>
+    <color name="font_color_orange_fddb80">#fddb80</color>
+    <color name="title_color_blue_41a3ff">#41a3ff</color>
+    <color name="line_color_gray_80999999">#80999999</color>
+    <color name="line_color_gray_33999999">#33999999</color>
+    <color name="line_color_gray_26000000">#26000000</color>
+
+    <color name="bg_color_orange_ffb758">#ffb758</color>
+
+
+    <color name="color_black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#f00</color>
+    <color name="write">#6b6a6a</color>
+    <color name="Yellow">#ff1200</color>
+    <color name="background">#FFFFFF</color>
+    <color name="split_line">#11112233</color>
+    <color name="text1">#59B29C</color>
+    <color name="text2">#333333</color>
+
+
+
+    <color name="date_picker_bg">#FFFFFF</color>
+    <color name="date_picker_divider">#11112233</color>
+    <color name="date_picker_text_light">#FF1200</color>
+    <color name="date_picker_text_dark">#333333</color>
+
+    <color name="main_bg">#F0F0F0</color>
+    <color name="select_title_text">#B0B0B0</color>
+    <color name="current_time_bg">#FFFFFF</color>
+    <color name="current_time_text">#666666</color>
+    <color name="selected_time_text">#FF1200</color>
+</resources>
